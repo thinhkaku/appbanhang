@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200sp">
+
+    <ImageView
+        android:id="@+id/imgHinhChinh1"
+        android:layout_width="117dp"
+        android:layout_height="match_parent"
+
+        android:scaleType="fitXY"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@drawable/nenlogin2"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center|left"
+            android:textColor="@android:color/white"
+            android:paddingLeft="20sp"
+            android:text="thịnh kaku"
+
+            android:id="@+id/txtTenSp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20sp"
+            android:layout_weight="1"
+            android:text="Gia sp"
+            android:id="@+id/txtGiaSP3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20sp"
+            android:text="Số lượng"
+            android:layout_weight="1"
+            android:id="@+id/txtSoLuong"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20sp"
+            android:text="Màu sắc"
+            android:id="@+id/txtMauSac"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|left"
+        android:textColor="@android:color/black"
+        android:paddingLeft="20sp"
+        android:layout_weight="1"
+        android:text="Size"
+        android:id="@+id/txtSize"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20sp"
+            android:layout_weight="1"
+            android:text="tến khách hàng"
+            android:id="@+id/txtTenKhachHang"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20sp"
+            android:layout_weight="1"
+            android:text="Số điện thoại"
+            android:id="@+id/txtSDT"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textColor="@android:color/black"
+            android:paddingLeft="20sp"
+            android:layout_weight="1"
+            android:text="Địa chỉ"
+            android:id="@+id/txtDiaChiKhachHang"/>
+    </LinearLayout>
+</LinearLayout>

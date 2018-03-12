@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:gravity="left|center"
+        android:text="Thông báo"
+        android:paddingLeft="20sp"
+        android:textSize="23sp"
+        android:background="#2196F3"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:text="Chúc mừng bạn đã tạo tài khoản thành công"
+        android:textStyle="bold"
+        android:background="#212121"
+        android:gravity="center"
+        android:layout_height="74dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#212121"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOKK"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/dialog_buttonpress"
+            android:text="OK"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#C6FF00"
+        android:gravity="center|left"
+        android:paddingLeft="15sp"
+        android:text="Một số sản phẩm đã lưu trong giỏ hàng"
+        android:textColor="@android:color/black" />
+    <GridView
+        android:layout_width="match_parent"
+        android:id="@+id/gvGioHang"
+        android:background="@drawable/nenlogin1"
+        android:numColumns="2"
+        android:layout_height="match_parent"></GridView>
+</LinearLayout>

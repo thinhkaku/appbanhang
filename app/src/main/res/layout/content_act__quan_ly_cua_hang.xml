@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="1sp"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.phanmemqlbhonline.activity.Act_QuanLyCuaHang"
+    tools:showIn="@layout/app_bar_act__quan_ly_cua_hang">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20sp"
+        android:gravity="center|left"
+        android:layout_weight="10"
+        android:textColor="@android:color/black"
+        android:background="#76FF03"
+        android:text="Danh sách đơn hàng"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/lvDanhSach"
+        android:dividerHeight="3sp"
+        android:background="@drawable/nenlogin2"
+        android:divider="#FFFF00"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/nenlogin2"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHinhXacNhanMuaHang"
+            android:layout_width="150dp"
+            android:layout_marginLeft="2sp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/aokhoac" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTenSp2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center|left"
+                android:paddingLeft="30sp"
+                android:text="Thịnh kaku"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtGiaSp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:paddingRight="10sp"
+                android:drawableRight="@drawable/moneybag"
+                android:paddingLeft="30sp"
+                android:text="Giá sp"
+                android:textColor="@android:color/white"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/edtSoLuongSp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Số lượng"
+                android:inputType="number"
+                android:paddingLeft="30sp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/edtMauSac"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/rgb"
+                android:hint="Màu sắc"
+                android:paddingLeft="30sp"
+                android:paddingRight="10sp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:text="Size"
+                    android:gravity="center"
+                    android:paddingLeft="10sp"
+                    android:textColor="@android:color/white"
+                    android:layout_height="match_parent" />
+                <Spinner
+                    android:id="@+id/spSize"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableRight="@drawable/fullsize"
+                    android:hint="Size"
+                    android:layout_weight="1"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="10sp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edtTenNguoiMua"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:drawableRight="@drawable/notebook"
+            android:gravity="center|left"
+            android:hint="Tên người mua"
+            android:paddingRight="10sp"
+            android:paddingLeft="30sp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingLeft="30sp"
+            android:gravity="center|left"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:hint="SDT"
+            android:inputType="number"
+            android:paddingRight="10sp"
+            android:drawableRight="@drawable/phonecall1"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/edtSDT"
+            android:layout_height="57dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingLeft="30sp"
+            android:gravity="center|left"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/placeholder"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:hint="Địa chỉ người mua"
+            android:paddingRight="10sp"
+            android:id="@+id/edtDiaChi"
+            android:layout_height="57dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnXacNhanMuaHang"
+                android:layout_width="200sp"
+                android:background="@drawable/button_xacnhanmuahang_press"
+                android:layout_height="50sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

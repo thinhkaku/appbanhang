@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="THÔNG BÁO"
+        android:textColor="#FF0040"
+        style="?android:attr/textAppearanceLarge"
+        android:background="#2EFEF7"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#181818"
+        android:orientation="vertical"
+        android:layout_weight="0.45">
+
+        <TextView
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.94"
+            android:gravity="center"
+            android:text="Bạn đã đặt hàng thành công, shop sẽ xác nhận lại danh tính của bạn trong thời gian ngắn nhất, Mời bạn tiếp tục mua các sẳn phẩm khác của chúng tôi "
+            android:textColor="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnDongDatHangThanhCong"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/dialog_buttonpress"
+                android:text="Đồng ý"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

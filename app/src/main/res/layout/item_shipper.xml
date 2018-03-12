@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="170sp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bike"
+        android:background="#76FF03"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#FFEB3B"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:gravity="center|left"
+            android:paddingLeft="10sp"
+            android:id="@+id/txtTenSP4"
+            android:textColor="@android:color/black"
+            android:text="Tên sản phẩm"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:paddingLeft="10sp"
+            android:layout_weight="1"
+            android:id="@+id/txtGiaSP5"
+            android:textColor="@android:color/black"
+            android:text="Giá sản phẩm"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:paddingLeft="10sp"
+            android:layout_weight="1"
+            android:id="@+id/txtTongtien"
+            android:textColor="@android:color/black"
+            android:text="Tổng tiền"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:id="@+id/txtSL"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:text="Số lượng"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:id="@+id/txtTenKhachHang2"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:text="Tên khách hàng"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtSDTKhachHang2"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="10sp"
+            android:textColor="@android:color/black"
+            android:text="Sdt khách hàng"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:paddingLeft="10sp"
+            android:id="@+id/txtDiaChiKhachhang2"
+            android:textColor="@android:color/black"
+            android:text="Địa chỉ khách hàng"/>
+    </LinearLayout>
+
+</LinearLayout>
